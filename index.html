@@ -4,118 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&family=Titan+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>BarberShop</title>
+    
 </head>
 <body>
-    <header> 
-        <a href="">
+    <header class="header"> 
+        <a href="" class="header-logo">
             <img src="./images/logo.svg" alt="Логотип">
         </a>
-        <nav>
-        <ul>
-            <li><a href="">Про нас</a></li>
-            <li><a href="">Полуги та ціни</a></li>
-            <li><a href="">Майстри</a></li>
-            <li><a href="">Контакти</a></li>
+        <nav class="header-navigation">
+        <ul class="header-list">
+            <li class="header-item"><a href="" class="header-link">Про нас</a></li>
+            <li class="header-item"><a href="#price" class="header-link">Полуги та ціни</a></li>
+            <li class="header-item"><a href="#masters" class="header-link">Майстри</a></li>
+            <li class="header-item"><a href="#contacts" class="header-link">Контакти</a></li>
         </ul>
         </nav>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button type="button">онлайн-запис</button>
+        <a href="tel:+380441111111" class="header-tel">+38 044 111 11 11</a>
+        <button type="button" class="header-button">онлайн-запис</button>
     </header>
     <main>
-        <section>
-            <ul>
-                <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
-                <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
+        <section class="hero">
+            <ul class="hero-list">
+                <li class="hero-item"><a href="" class="hero-link" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
+                <li class="hero-item"><a href="" class="hero-link" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
             </ul>
-        <p lang="en">A hair salon for men in Kyiv</p>
-        <h1 lang="en">BarberShop</h1>
-        <p>Ми експерти в модних чоловічих стрижках. Працюємо швидко, обережно та зі смаком</p>
+        <p class="hero-top-text" lang="en">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title" lang="en">BarberShop</h1>
+        <p class="hero-text">Ми експерти в модних чоловічих стрижках. Працюємо швидко, обережно та зі смаком</p>
         </section>
 
-        <section>
-            <ul>
-                <li><img src="./images/img-1.jpg" alt="стрижка бороди" width="270"></li>
-                <li><img src="./images/img-2.jpg" alt="стрижка голови" width="270"></li>
+        <section class="about">
+            <ul class="about-list">
+                <li class="about-item"><img src="./images/img-1.jpg" alt="стрижка бороди" width="270"></li>
+                <li class="about-item"><img src="./images/img-2.jpg" alt="стрижка голови" width="270"></li>
             </ul>
-            <p>Про нас</p>
-            <h2>Кращий барбершоп твого міста</h2>
-            <p>Якщо ти хочеш додати у свій образ більше впевненості, тобі точно до нас.</p>
-            <p>Ми команда, яка ніколи не зупиняється на досягнутому
+            <p class="about-top-text">Про нас</p>
+            <h2 class="about-title">Кращий барбершоп твого міста</h2>
+            <p class="about-text">Якщо ти хочеш додати у свій образ більше впевненості, тобі точно до нас.</p>
+            <p class="about-us">Ми команда, яка ніколи не зупиняється на досягнутому
                і прагне змін. І коли ти потрапиш до рук нашого майстра,
                то вже ніколи не зможеш бути тим самим. Ми команда, яка завжди з клієнтами "на одній хвилі". Тому ми завжди готові
                вдосконалити кожного, хто до нас приходить!
             </p>
-          <button type="button">онлайн-запис</button>
+          <button type="button" class="about-button">онлайн-запис</button>
         </section>
 
-        <section>
-            <p>Проведи час у компанії кращих майстрів</p>
-            <h2>Послуги та ціни</h2>
-            <ul>
-                <li>
-                    <p>Чоловіча стрижка</p>
-                    <p>від 300 грн.</p>
+        <section id="price" class="price">
+            <p class="price-text">Проведи час у компанії кращих майстрів</p>
+            <h2 class="price-title">Послуги та ціни</h2>
+            <ul class="price-list">
+                <li class="price-item">
+                    <p class="price-item__text">Чоловіча стрижка</p>
+                    <p class="price-item__sum">від 300 грн.</p>
                 </li>
                 <li>
-                    <p>Стрижка бороди</p>
-                    <p>від 200 грн.</p>
+                    <p class="price-item__text">Стрижка бороди</p>
+                    <p class="price-item__sum">від 200 грн.</p>
                 </li>
                 <li>
-                    <p>Стрижка вусів</p>
-                    <p>від 200 грн.</p>
+                    <p class="price-item__text">Стрижка вусів</p>
+                    <p class="price-item__sum">від 200 грн.</p>
                 </li>
                 <li>
-                    <p>Гоління небезпечною бритвою</p>
-                    <p>від 200 грн.</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <p>Стрижка у стажера</p>
-                    <p>від 50 грн.</p>
-                </li>
-                <li>
-                    <p>Стрижка під насадку</p>
-                    <p>від 200 грн.</p>
-                </li>
-                <li>
-                    <p>Дитяча стрижка (до 12 років)</p>
-                    <p>від 300 грн.</p>
-                </li>
-                <li>
-                    <p>Камуфлювання сивини</p>
-                    <p>від 200 грн.</p>
+                    <p class="price-item__text">Гоління небезпечною бритвою</p>
+                    <p class="price-item__sum">від 200 грн.</p>
                 </li>
             </ul>
-          <button type="button">онлайн-запис</button>
+            <ul class="price-list">
+                <li>
+                    <p class="price-item__text">Стрижка у стажера</p>
+                    <p class="price-item__sum">від 50 грн.</p>
+                </li>
+                <li>
+                    <p class="price-item__text">Стрижка під насадку</p>
+                    <p class="price-item__sum">від 200 грн.</p>
+                </li>
+                <li>
+                    <p class="price-item__text">Дитяча стрижка (до 12 років)</p>
+                    <p class="price-item__sum">від 300 грн.</p>
+                </li>
+                <li>
+                    <p class="price-item__text">Камуфлювання сивини</p>
+                    <p class="price-item__sum">від 200 грн.</p>
+                </li>
+            </ul>
+          <button type="button" class="price-button">онлайн-запис</button>
         </section>
 
-        <section>
-            <ul>
-                <li>
-                    <span>600</span>
-                    <p>Задоволених клієнтів на день</p>
+        <section class="features">
+            <ul class="features-list">
+                <li class="features-item">
+                    <span class="features-client">600</span>
+                    <p class="features-text">Задоволених клієнтів на день</p>
                 </li>
-                <li>
-                    <span>50</span>
-                    <p>Нагород за відмінний сервіс</p>
+                <li class="features-item">
+                    <span class="features-client">50</span>
+                    <p class="features-text">Нагород за відмінний сервіс</p>
                 </li>
-                <li>
-                    <span>20</span>
-                    <p>Найкращих майстрів Києва</p>
+                <li class="features-item">
+                    <span class="features-client">20</span>
+                    <p class="features-text">Найкращих майстрів Києва</p>
                 </li>
-                <li>
-                    <span>100</span>
-                    <p>Подарунків постійним клієнтам</p>
+                <li class="features-item">
+                    <span class="features-client">100</span>
+                    <p class="features-text">Подарунків постійним клієнтам</p>
                 </li>
             </ul>
-            <p>стара традиційна школа</p>
-            <h2>Чому приходять саме до нас?</h2>
-            <p>Про нас говорять лише добре. Але краще 1 раз побачити та відчути, ніж 10 разів прочитати.</p>
+            <p class="features-top-text">стара традиційна школа</p>
+            <h2 class="features-title">Чому приходять саме до нас?</h2>
+            <p class="features-description">Про нас говорять лише добре. Але краще 1 раз побачити та відчути, ніж 10 разів прочитати.</p>
         </section>
 
-        <section>
+        <section id="masters">
             <p>для справжніх поціновувачів атмосфери</p>
             <h2>Наші майстри</h2>
             <ul>
@@ -151,7 +158,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="contacts">
             <h2>Контакти</h2>
             <address>
                 <ul>
