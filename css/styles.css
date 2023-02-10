@@ -1,3 +1,17 @@
+:root {
+        --main-title-color:#303030;
+        --second-title-color:#555555;
+        --third-title-color:#FFFFFF;
+        --main-text-color:#FFFFFF;
+        --second-text-color: #212121;
+        --third-title-color:#9DA4BD;
+        --accent-color: #FF6C00;
+        --main-btn-color:#ffffff;
+        --main-background-color: #FFFFFF;
+        --two-background-color: #F7F7F7;
+        --third-background-color: #191C26;
+}
+
 body {
     font-family: "Open Sans",sans-serif;
     letter-spacing: 0.02em;
@@ -8,5 +22,84 @@ body {
 }
 
 .list {
-    text-decoration: none;
+    list-style: none;
 }
+ 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*------- стилізація секції header----- */
+.header {
+    background-color: #7e7a7a;
+}
+
+.header-nav-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--main-text-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: var(--accent-color);
+}
+
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--main-text-color)
+}
+
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent-color);
+}    
+
+.header-button {
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        color: var(--main-text-color);
+        cursor: pointer;
+}
+
+.header-button:hover,
+.header-button:focus {
+    color: var(--main-text-color);
+    background-color: var(--accent-color);
+}
+
+/* ------Стилізація секції hero----- */
+.hero {}
+
+.hero-list {}
+
+.hero-item {}
+
+.hero-link {}
+
+.hero-content {}
+
+.hero-content-text {}
+
+.hero-title {}
+
+.hero-text {}
