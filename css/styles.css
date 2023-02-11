@@ -1,10 +1,11 @@
 :root {
         --main-title-color:#303030;
-        --second-title-color:#555555;
+        --fourth-text-color:#555555;
         --third-title-color:#FFFFFF;
-        --main-text-color:#FFFFFF;
+        --header-text-color:#FFFFFF;
+        --main-text-color:#303030;
         --second-text-color: #212121;
-        --third-title-color:#9DA4BD;
+        --third-text-color:#9DA4BD;
         --accent-color: #FF6C00;
         --main-btn-color:#ffffff;
         --main-background-color: #FFFFFF;
@@ -48,7 +49,7 @@ body {
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.1em;
-    color: var(--main-text-color);
+    color: var(--header-text-color);
 }
 
 .header-nav-link:hover,
@@ -62,7 +63,7 @@ body {
     line-height: 1.33;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--main-text-color)
+    color: var(--header-text-color)
 }
 
 .header-tel:hover,
@@ -77,7 +78,7 @@ body {
         line-height: 1.33;
         letter-spacing: 0.09em;
         text-transform: uppercase;
-        color: var(--main-text-color);
+        color: var(--header-text-color);
         cursor: pointer;
 }
 
@@ -88,18 +89,164 @@ body {
 }
 
 /* ------Стилізація секції hero----- */
-.hero {}
+.hero {
+   background-color: #555555; 
+}
 
-.hero-list {}
+/* .hero-list {} */
 
-.hero-item {}
+/* .hero-item {} */
 
-.hero-link {}
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--main-text-color);
+}
 
-.hero-content {}
+.hero-link:hover,
+.hero-link:focus {
+    color: var(--accent-color);
+}
 
-.hero-content-text {}
+/* .hero-content {} */
 
-.hero-title {}
+.hero-content-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
 
-.hero-text {}
+.hero-title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.13;
+    letter-spacing: 0.05em;
+    color: var(--header-text-color);
+}
+
+.hero-text {
+    /* font-weight: 400; */
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--third-text-color);
+}
+
+/* ------Стилізація секції about---- */
+
+/* .about {} */
+
+/* .about-list {} */
+
+/* .about-item {} */
+
+.about-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+}
+
+.about-title {
+    font-family: 'Raleway';
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--main-text-color);
+}
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--fourth-text-color);
+}
+
+.about-us {
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: var(--fourth-text-color);
+}
+
+.about-button {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    cursor: pointer;
+}
+
+.about-button:hover,
+.about-button:focus {
+    color: var(--main-btn-color);
+    background-color: var(--accent-color);
+}
+
+/* ------Стилізація секції price----- */
+.price {
+    background-color: #4a4848;
+}
+
+.price-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.price-title {
+    font-family: 'Raleway';
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--third-title-color);
+}
+
+/* .price-list {} */
+
+/* .price-item {} */
+
+.price-item__text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--third-text-color);
+}
+
+.price-item__sum {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--third-text-color);
+}
+
+.price-button {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    cursor: pointer;
+}
+
+.price-button:hover,
+.price-button:focus {
+    color: var(--main-btn-color);
+    background-color: var(--accent-color);
+}
