@@ -16,6 +16,8 @@
 body {
     font-family: "Open Sans",sans-serif;
     letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
 }
 
 .link {
@@ -133,7 +135,6 @@ body {
 .hero-text {
     font-size: 18px;
     line-height: 1.67;
-    letter-spacing: 0.02em;
     color: var(--third-text-color);
 }
 
@@ -151,7 +152,6 @@ body {
     line-height: 1.36;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--main-text-color);
 }
 
 .about-title {
@@ -159,20 +159,17 @@ body {
     font-size: 42px;
     line-height: 1.17;
     letter-spacing: 0.05em;
-    color: var(--main-text-color);
 }
 
 .about-text {
     font-size: 18px;
     line-height: 1.67;
-    letter-spacing: 0.02em;
     color: var(--fourth-text-color);
 }
 
 .about-us {
     font-size: 14px;
     line-height: 1.86;
-    letter-spacing: 0.02em;
     color: var(--fourth-text-color);
 }
 
@@ -222,14 +219,12 @@ body {
 .price-item__text {
     font-size: 18px;
     line-height: 1.67;
-    letter-spacing: 0.02em;
     color: var(--third-text-color);
 }
 
 .price-item__sum {
     font-size: 18px;
     line-height: 1.67;
-    letter-spacing: 0.02em;
     color: var(--third-text-color);
 }
 
@@ -249,3 +244,170 @@ body {
     color: var(--main-btn-color);
     background-color: var(--accent-color);
 }
+
+/* ------Стилізація секції features----- */
+.features {
+    background-color: var(--main-background-color);
+}
+
+.features-list {}
+
+.features-item {
+    background-color: var(--two-background-color);
+}
+
+.features-client {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    letter-spacing: 0.05em;
+    display: block;
+    text-align: center;
+}
+
+.features-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+.features-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.features-title {
+    font-family: 'Raleway';
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.features-description {
+    font-size: 18px;
+    line-height: 1.67;
+    color: var(--fourth-text-color);
+}
+
+/* ------Стилізація секції masters----- */
+.masters {
+    background-color: var(--two-background-color);
+}
+
+.masters-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.masters-title {
+    font-family: 'Raleway';
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+/* .masters-list {} */
+
+.masters-item {
+    cursor: pointer;
+}
+
+.masters-item-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+}
+
+.masters-item-text {
+    font-size: 14px;
+    line-height: 1.36;
+    color: var(--accent-color);
+}
+/* ------Стилізація секції portfolio----- */
+ /* .portfolio {} */
+
+ .portfolio-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+ }
+
+ /* .portfolio-list {} */
+
+ /* .portfolio-item {} */
+
+ /* ------Стилізація секції contacts----- */
+ .contacts {
+    background-color: #7e7a7a;
+ }
+
+ .contacts-title {
+    font-family: 'Raleway';
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--third-title-color);
+ }
+
+ .contacts-address {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.67;
+ }
+
+ /* .contacts-list {
+ } */
+
+ /* .contacts-item {} */
+
+ .contacts-link {
+    color: var(--third-text-color)
+ }
+
+ .contacts-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--third-title-color);
+ }
+
+ .contacts-time {
+    font-size: 18px;
+    line-height: 1.67;
+    color: var(--third-text-color);
+ }
+
+ /* ------Стилізація секції footer----- */
+ .footer {
+    background-color: var(--two-background-color);
+ }
+
+ .footer-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    color: var(--third-text-color);
+ }
+
+ .footer-list {}
+
+ .footer-item {}
+
+ .footer-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--main-text-color);
+ }
