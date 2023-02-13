@@ -400,9 +400,9 @@ body {
     color: var(--third-text-color);
  }
 
- .footer-list {}
+ /* .footer-list {} */
 
- .footer-item {}
+ /* .footer-item {} */
 
  .footer-link {
     font-weight: 600;
