@@ -41,6 +41,35 @@ body {
     overflow: hidden;
 }
 
+
+p,
+h1,
+h2,
+h3,
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+
+}
+
+/* .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+} */
+
+/* .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin: 0;
+} */
+
 /*------- стилізація секції header----- */
 .header {
     background-color: #7e7a7a;
