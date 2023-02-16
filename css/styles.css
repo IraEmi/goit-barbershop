@@ -279,7 +279,7 @@ img {
     background-color: var(--main-background-color);
 }
 
-.features-list {}
+/* .features-list {} */
 
 .features-item {
     background-color: var(--two-background-color);
