@@ -57,12 +57,12 @@ img {
 
 }
 
-/* .container {
+.container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-} */
+}
 
 /* .section {
     padding-top: 94px;
@@ -73,6 +73,8 @@ img {
 /*------- стилізація секції header----- */
 .header {
     background-color: #7e7a7a;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header-nav-link {
@@ -125,9 +127,8 @@ img {
 }
 
 /* ------Стилізація секції hero----- */
-.hero {
-   background-color: #555555; 
-}
+/* .hero {} */
+
 
 /* .hero-list {} */
 
@@ -146,7 +147,10 @@ img {
     color: var(--accent-color);
 }
 
-/* .hero-content {} */
+.hero-content {
+    background-color: #555555;
+    padding: 272px 0 206px 96px;
+}
 
 .hero-content-text {
     font-weight: 600;
@@ -155,6 +159,7 @@ img {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: rgba(157, 164, 189, 0.6);
+    margin-bottom: 20px;
 }
 
 .hero-title {
@@ -164,17 +169,22 @@ img {
     line-height: 1.13;
     letter-spacing: 0.05em;
     color: var(--header-text-color);
+    margin-bottom: 20px;
 }
 
 .hero-text {
     font-size: 18px;
     line-height: 1.67;
     color: var(--third-text-color);
+    max-width: 400px;
 }
 
 /* ------Стилізація секції about---- */
 
-/* .about {} */
+.about {
+    padding-top: 164px;
+    padding-bottom: 88px;
+}
 
 /* .about-list {} */
 
@@ -186,6 +196,7 @@ img {
     line-height: 1.36;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .about-title {
@@ -193,18 +204,21 @@ img {
     font-size: 42px;
     line-height: 1.17;
     letter-spacing: 0.05em;
+    margin-bottom: 20px;
 }
 
 .about-text {
     font-size: 18px;
     line-height: 1.67;
     color: var(--fourth-text-color);
+    margin-bottom: 20px;
 }
 
 .about-us {
     font-size: 14px;
     line-height: 1.86;
     color: var(--fourth-text-color);
+    margin-bottom: 40px;
 }
 
 .about-button {
@@ -232,6 +246,8 @@ img {
 /* ------Стилізація секції price----- */
 .price {
     background-color: #4a4848;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .price-text {
@@ -241,6 +257,7 @@ img {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: rgba(157, 164, 189, 0.6);
+    margin-bottom: 20px;
 }
 
 .price-title {
@@ -249,11 +266,14 @@ img {
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: var(--third-title-color);
+    margin-bottom: 44px;
 }
 
 /* .price-list {} */
 
-/* .price-item {} */
+.price-item {
+    margin-bottom: 20px;
+}
 
 .price-item__text {
     font-size: 18px;
@@ -293,12 +313,16 @@ img {
 /* ------Стилізація секції features----- */
 .features {
     background-color: var(--main-background-color);
+    padding-top: 143px;
+    padding-bottom: 137px;
 }
 
 /* .features-list {} */
 
 .features-item {
     background-color: var(--two-background-color);
+    width: 170px;
+    height: 130px;
 }
 
 .features-client {
@@ -308,6 +332,7 @@ img {
     letter-spacing: 0.05em;
     display: block;
     text-align: center;
+    margin-bottom: 6px;
 }
 
 .features-text {
@@ -341,6 +366,8 @@ img {
 /* ------Стилізація секції masters----- */
 .masters {
     background-color: var(--two-background-color);
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .masters-text {
@@ -349,6 +376,7 @@ img {
     line-height: 1.36;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .masters-title {
@@ -356,6 +384,7 @@ img {
     font-size: 42px;
     line-height: 1.17;
     letter-spacing: 0.05em;
+    margin-bottom: 44px;
 }
 
 /* .masters-list {} */
@@ -364,19 +393,30 @@ img {
     cursor: pointer;
 }
 
+.masters-img{
+    margin-bottom: 30px;
+
+}
+
 .masters-item-title {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.39;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .masters-item-text {
     font-size: 14px;
     line-height: 1.36;
     color: var(--accent-color);
+    text-align: center;
 }
 /* ------Стилізація секції portfolio----- */
- /* .portfolio {} */
+ .portfolio {
+    padding-top: 130px;
+    padding-bottom: 130px;
+ }
 
  .portfolio-text {
     font-weight: 600;
@@ -384,6 +424,7 @@ img {
     line-height: 1.36;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-bottom: 44px;
  }
 
  /* .portfolio-list {} */
@@ -393,6 +434,8 @@ img {
  /* ------Стилізація секції contacts----- */
  .contacts {
     background-color: #7e7a7a;
+    padding-top: 130px;
+    padding-bottom: 130px;
  }
 
  .contacts-title {
@@ -401,6 +444,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: var(--third-title-color);
+    margin-bottom: 40px;
  }
 
  .contacts-address {
@@ -409,10 +453,17 @@ img {
     line-height: 1.67;
  }
 
- /* .contacts-list {
- } */
+ .contacts-list {
+    margin-bottom: 70px;
+ }
 
- /* .contacts-item {} */
+ .contacts-item {
+    margin-bottom: 20px;
+ }
+
+ /* .contacts-list:nth-last-child() {
+    margin-bottom: 0px;
+ } */
 
  .contacts-link {
     color: var(--third-text-color)
@@ -425,6 +476,7 @@ img {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--third-title-color);
+    margin-bottom: 20px;
  }
 
  .contacts-time {
@@ -436,6 +488,8 @@ img {
  /* ------Стилізація секції footer----- */
  .footer {
     background-color: var(--two-background-color);
+    padding-top: 57px;
+    padding-bottom: 55px;
  }
 
  .footer-text {
